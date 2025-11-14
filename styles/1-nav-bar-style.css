@@ -56,7 +56,7 @@ body{
 .nav-header{
     align-items: center;
 }
-.nav-bar header h1{
+.nav-header h1{
     text-align: center;
     font-size: 48px;
     font-family: Dekko;

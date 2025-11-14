@@ -1,0 +1,101 @@
+/* 
+
+
+*/
+
+/* -------------------------------------------flexbox------------------------------------------------------------- */
+
+footer{
+  background: #000;
+}
+
+.footer-navs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 35px;
+  margin-bottom: 35px;
+  
+}
+
+/* ----------------------------------------footer "a" and heading tags ----------------------------------------------*/
+
+.footer-sec ul{
+  list-style: none;
+}
+
+#sec-head{
+  color: #fff;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.footer-sec ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+
+}
+
+
+/* ---------------------------------------------footer endings-------------------------------------------------- */
+.endings p{
+  color: #fff;
+  font-size: 16px;
+}
+
+/* ------------------------------------------------hover effects------------------------------------------------ */
+.footer-sec ul li a:hover{
+  color: blue;
+}
+
+
+
+
+/* ================================================================================================================= */
+
+
+/* ------------------------------------------------tablet screen sizes------------------------------------*/
+
+@media(max-width: 856px){  
+
+/* ---------------------------------------footer "a" and heading tags ----------------------------------------------*/
+#sec-head{
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.footer-sec ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+.endings p{
+  font-size: 12px;
+}
+
+}
+
+@media(max-width: 640px){
+
+/* -------------------------------------------flexbox------------------------------------------------------------- */
+
+.footer-navs{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.footer-ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+}
