@@ -1,0 +1,117 @@
+/* 
+
+
+*/
+
+/* ----------------------------------------flexbox of proof section */
+.proof{
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0px 50px 0px;
+}
+
+.proof-header{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.proof-logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/*-------------------------------------------------text edits for h1 and p-----------------------------------------  */
+#proof-h1{
+  text-align: center;
+  font-size: 68px;
+}
+
+#proof-p{
+  text-align: center;
+  font-size: 42px;
+  padding: 10px 0px 10px 0px ;
+}
+
+
+
+/* ---------------------------------------------------proof section logos------------------------------------------- */
+.google-plus{
+  background: url(../assets/icons/company-logos/Google-Plus-logo.svg);
+}
+.disc{
+  background: url(../assets/icons/company-logos/compact-disc-logo.svg);
+}
+.linux{
+  background: url(../assets/icons/company-logos/linux-logo.svg);
+}
+.folder{
+  background: url(../assets/icons/company-logos/folder-logo.svg);
+}
+.opensource{
+  background: url(../assets/icons/company-logos/opensource-logo.svg);
+}
+/* svg edits */
+.proof-svg{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+}
+
+
+
+/* ================================================================================================================= */
+
+
+/* ------------------------------------------------tablet screen sizes------------------------------------*/
+
+@media(max-width: 1007px){
+
+/* svg edits */
+.proof-svg{
+  width: 100px;
+  height: 100px;
+}
+
+/*-------------------------------------------------text edits for h1 and p-----------------------------------------  */
+#proof-h1{
+  font-size: 42px;
+}
+
+#proof-p{
+  font-size: 32px;
+}
+
+/* ------------------------------------------------Mobile screen sizes------------------------------------*/
+
+@media(max-width:553px){
+
+/* svg edits */   
+.proof-logo{
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.proof-svg{
+  width: 200px;
+  height: 200px;
+}
+
+
+
+/*-------------------------------------------------text edits for h1 and p-----------------------------------------  */
+#proof-h1{
+  font-size: 32px;
+}
+
+#proof-p{
+  font-size: 24px;
+}
+
+}
+
+}

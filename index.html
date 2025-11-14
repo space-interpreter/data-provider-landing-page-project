@@ -1,0 +1,188 @@
+<!-- 
+    Data Company Landing Page
+    Author: Lughano Mbotwa
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data | Home</title>
+    <!-- CSS link start here -->
+    <link rel="stylesheet" href="./styles/1-nav-bar-style.css">
+    <link rel="stylesheet" href="./styles/2-hero-section-style.css">
+    <link rel="stylesheet" href="./styles/3-social-proof-style.css">
+    <link rel="stylesheet" href="./styles/4-benefits-section-style.css">
+
+    <!-- JS links -->
+    
+
+</head>
+<body>
+
+
+<!-- The Nav Section starts here -->
+    
+    <!-- nav bar hidden -->
+    <nav class="nav-bar-hide">
+        
+        <a  onclick="hideNav()" class=" close-icon">
+            <img src="./assets/icons/icons/material-symbols_close-rounded.svg" alt="material-symbols_close-rounded" id="nav-img">
+        </a>    
+
+         <ul class="nav-list-mobile">
+
+            <!-- Nav list -->
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Plans</a></li>
+
+        </ul>
+
+        <!-- Sign Up button -->
+        <div class="nav-btn-hide">
+            <button id="nav-btn">Sign Up</button>
+        </div>
+
+    </nav>
+    <!-- ends of nav bar hidden -->
+     
+    <nav class="nav-bar">
+         
+            <!-- DataPlus Logo -->
+            <header class="nav-header">
+                <h1>DataPluz</h1>
+            </header>
+
+         <ul class="nav-list">
+
+            <!-- Nav list -->
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Plans</a></li>
+
+        </ul>
+
+        
+        <!-- Sign Up button -->
+        <div class="nav-btn">
+            <button id="nav-btn">Sign Up</button>
+        </div>
+        
+        <!-- ham bar -->
+        <a onclick="showNav()" class="ham-icon">
+            <img  src="./assets/icons/icons/hamburger-icon.svg" alt="hamburger-icon" id="nav-img">
+        </a>    
+
+    </nav>
+
+<!-- ends of nav bar hidden -->
+
+
+<!-- Hero section starts here -->
+
+    <section class="hero hero-img">
+
+       <!-- hero text  -->
+        <div class="hero-text">
+            <h1 id="hero-h1">Data For Everyone</h1>
+            <p id="hero-p">Find your data plan that best suit you.</p>
+
+            <!-- hero buttons -->
+            <button class="hero-btn">
+                View Plans
+            </button>
+            <button class="hero-btn login">
+                Log In
+            </button>
+        </div>
+        
+    </section>
+
+<!-- the end -->
+
+<!-- Socail proof section -->
+
+    <section class="proof">
+
+        <!-- section header -->
+        <header class="proof-header">
+            <h1 id="proof-h1">Trusted By</h1>
+            <p id="proof-p"> Find a plan for your success like our trusted clients</p>
+        </header>
+
+        <!-- logo section -->
+        <div class="proof-logo">
+            <div class="proof-svg google-plus"></div>
+            <div class="proof-svg disc"></div>
+            <div class="proof-svg linux"></div>
+            <div class="proof-svg folder"></div>
+            <div class="proof-svg opensource"></div>
+        </div>
+    </section>
+
+<!-- the ending of socail proofs-->
+
+<!-- benefits section -->
+
+    <section class="benefits">
+
+        <!-- benefits section header -->
+        <header class="benefits-header">
+            <h1 id="ben-h1">Why Choose Us</h1>
+            <p id="ben-p">We provide a fast, simple, reliable way to buy data</p>
+        </header>
+
+        <div class="benefit-slot">
+            
+            <!-- benefit slot image -->
+            <div>
+                <img src="./assets/illustrations/fast-speed-illustration.svg" alt="fast-speed-illustration" class="ben-img">
+            </div>
+            
+            <div class="ben-slot-t">
+                <img src="./assets/icons/icons/network-icon.svg" alt="network-icon" id="ben-slot-img">
+                <h3 id="ben-h3">Fast Speed</h3>
+                <p id="ben-slot-p">A fast-speed network enables quick communication, smooth streaming, faster downloads, and improved productivity for users and businesses.</p>
+            </div>
+        </div>
+
+
+        <div class="benefit-slot">
+            <div class="ben-slot-t">
+                <img src="./assets/icons/icons/location-icon.svg" alt="location-icon" id="ben-slot-img">
+                <h3 id="ben-h3">Range</h3>
+                <p id="ben-slot-p">A wide network range allows users to stay connected over long distances with strong and reliable signal coverage.</p>
+            </div>
+
+            <!-- benefit slot image -->
+            <div>
+                <img src="./assets/illustrations/range-illustration.svg" alt="" class="ben-img">
+            </div>
+        </div>
+        <div class="benefit-slot">
+
+            <!-- benefit slot image -->
+            <div>
+                <img src="./assets/illustrations/pricing-illustration.svg" alt="" class="ben-img">
+            </div>
+
+            <!-- text section -->
+            <div class="ben-slot-t">
+                <img src="./assets/icons/icons/dollar-icon.svg" alt="dollar-icon" id="ben-slot-img">
+                <h3 id="ben-h3">Pricing</h3>
+                <p id="ben-slot-p">Affordable network pricing ensures wider access, allowing more users to enjoy reliable, high-speed internet at a lower cost.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    
+<script src="./main.js"></script>
+</body>
+</html>

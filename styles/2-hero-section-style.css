@@ -1,0 +1,138 @@
+/* 
+
+
+*/
+
+
+/* ----------------------------------------------------hero background image---------------------------------------- */
+.hero{
+  margin: 0px  35px 0px 35px;
+}
+
+.hero-img{
+  
+  height: 100vh;
+  background: url(../assets/images/Hero-Section.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: inherit;
+  border-radius: 60px;
+  align-items: center;
+}
+
+/* ----------------------------------------------------hero text and buttons---------------------------------------- */
+.hero-text{
+  align-items: center;
+  background: none;
+}
+/* hero heading */
+#hero-h1{
+  color: #fff;
+  padding: 20% 0px 0px 35px;
+  text-align: start;
+  font-size: 68px;
+}
+/* hero paragraph */
+#hero-p{
+  font-size: 32px;
+  color: #fff;
+  padding: 15px 0px 0px 35px;
+}
+
+/* hero buttons */
+.hero-btn{
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 60px;
+  margin: 15px 0px 0px 35px;
+  padding: 10px 40px 10px 40px;
+}
+
+.login{
+  padding: 10px 80px 10px 80px;
+}
+
+/*---------------------------------------------------------- Hover effects------------------------------------------ */
+.hero-btn:hover{
+  color: #fff;
+  background-color: #000;
+}
+
+
+/* ================================================================================================================= */
+
+
+/* ------------------------------------------------tablet screen sizes------------------------------------*/
+
+@media(max-width: 894px){
+
+/* ----------------------------------------------------hero background image---------------------------------------- */
+
+.hero-img{
+  background-position: inherit;
+  filter: blur(90%);
+  height: 90vh;
+}
+
+
+/* ----------------------------------------------------hero text and buttons---------------------------------------- */
+/* hero heading */
+#hero-h1{
+  
+  font-size: 32px;
+  padding-top: 12rem;
+}
+
+/* hero paragraphs and buttons */
+#hero-p, .hero-btn{
+  font-size: 24px;
+}
+.login{
+  margin: 0px 0px 0px 0px;
+  padding: 10px 55px 10px 55px;
+
+}
+
+
+}
+
+/* ------------------------------------------------Mobile screen sizes------------------------------------*/
+
+@media(max-width:553px){
+
+.hero{
+  margin: 0px  10px 0px 10px;
+}
+.hero-img{
+  background: #F0FFFF;
+  height: 80vh;
+}
+
+/* ----------------------------------------------------hero text and buttons---------------------------------------- */
+/* hero heading */
+#hero-h1{
+  font-size: 24px;
+  color: #000;
+  padding-top: 12rem;
+}
+/* hero paragraphs and buttons */
+#hero-p{
+  color: #000;
+}
+#hero-p, .hero-btn{
+  font-size: 16px;
+}
+.hero-btn{
+  margin: 15px 0px 0px 35px;
+  padding: 10px 20px 10px 20px;
+
+}
+.login{
+  margin: 0px 0px 0px 0px;
+} 
+
+
+}
